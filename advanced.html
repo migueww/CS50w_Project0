@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Search by Miguew</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="search.html">Go back to Search</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="https://www.google.com/search" method="get">
+            <label for="all-words">Find pages with… “all these words:”</label><br>
+            <input type="text" id="all-words" name="q"><br>
+            
+            <label for="exact-phrase">Find pages with… “this exact word or phrase:”</label><br>
+            <input type="text" id="exact-phrase" name="as_epq"><br>
+            
+            <label for="any-words">Find pages with… “any of these words:”</label><br>
+            <input type="text" id="any-words" name="as_oq"><br>
+            
+            <label for="none-words">Find pages with… “none of these words:”</label><br>
+            <input type="text" id="none-words" name="as_eq"><br>
+            
+            <input type="submit" value="Advanced Search">
+        </form>
+    </main>
+</body>
+</html>
